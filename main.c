@@ -19,7 +19,7 @@ for(i=0;i<t;i++)
 	if (x>y && x%2==0)
 	{
 	
-	printf("%d need to win \n",y-x);}
+	printf("%d need to win \n",x-y);}
 	else if(x=y  && x%2==0){
 	
 	printf("%d need to win\n",y/2);}
