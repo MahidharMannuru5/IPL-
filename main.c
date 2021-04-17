@@ -23,7 +23,7 @@ for(i=0;i<t;i++)
 	else if(x=y  && x%2==0){
 	
 	printf("%d need to win\n",y/2);}
-	else if(x%2!=0 && x=y)
+	else if(x%2!=0 && x==y)
 	{
 		printf("%d\n one match needs to be a tie\n",x/2);
 		
