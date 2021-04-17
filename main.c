@@ -1,3 +1,4 @@
+
 // A simple program to find the possibility chance of your fav ipl team
 #include<stdio.h>
 #include<conio.h>
@@ -22,6 +23,11 @@ for(i=0;i<t;i++)
 	else if(x=y  && x%2==0){
 	
 	printf("%d need to win\n",y/2);}
+	else if(x%2!=0 && x=y)
+	{
+		printf("%d\n one match needs to be a tie\n",x/2);
+		
+	}
 	else if(x%2!=0 && x>y){
 	
 	printf("%d one match needs to be a tie\n",x-y);}
@@ -29,4 +35,3 @@ for(i=0;i<t;i++)
 	printf(" NO CHANCE OF QUALIFYING \n");
 }
 }
-
